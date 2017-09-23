@@ -1,0 +1,165 @@
+PODS:
+  - Alamofire (4.5.1)
+  - Carte (2.0.2)
+  - CGFloatLiteral (0.3.0)
+  - Differentiator (2.0.2)
+  - Immutable (0.4.0)
+  - KeychainAccess (3.1.0)
+  - Kingfisher (3.13.1)
+  - ManualLayout (1.3.0)
+  - Moya (8.0.5):
+    - Moya/Core (= 8.0.5)
+  - Moya/Core (8.0.5):
+    - Alamofire (~> 4.1)
+    - Result (~> 3.0)
+  - Moya/RxSwift (8.0.5):
+    - Moya/Core
+    - RxSwift (~> 3.0)
+  - MoyaSugar (0.4.1):
+    - MoyaSugar/Core (= 0.4.1)
+  - MoyaSugar/Core (0.4.1):
+    - Moya (>= 8.0.0)
+  - MoyaSugar/RxSwift (0.4.1):
+    - Moya/RxSwift (>= 8.0.0)
+    - MoyaSugar/Core
+    - RxSwift (>= 3.0.0)
+  - Nimble (7.0.1)
+  - ObjectMapper (2.2.9)
+  - Quick (1.1.0)
+  - ReactorKit (0.5.3):
+    - RxSwift (>= 3.0.0)
+  - Result (3.2.3)
+  - ReusableKit (1.3.0):
+    - ReusableKit/Core (= 1.3.0)
+    - ReusableKit/RxSwift (= 1.3.0)
+  - ReusableKit/Core (1.3.0)
+  - ReusableKit/RxSwift (1.3.0):
+    - ReusableKit/Core
+    - RxCocoa (>= 3.4)
+    - RxSwift (>= 3.4)
+  - RxCocoa (3.6.1):
+    - RxSwift (~> 3.6)
+  - RxDataSources (2.0.2):
+    - Differentiator (~> 2.0)
+    - RxCocoa (>= 3.6.1)
+    - RxSwift (>= 3.6.1)
+  - RxGesture (1.1.1):
+    - RxCocoa (~> 3.6)
+    - RxSwift (~> 3.6)
+  - RxKeyboard (0.6.2):
+    - RxCocoa (>= 3.4)
+    - RxSwift (>= 3.4)
+  - RxOptional (3.2.0):
+    - RxCocoa
+    - RxSwift
+  - RxReusable (0.3.1):
+    - RxCocoa (>= 3.0)
+    - RxSwift (>= 3.0)
+  - RxSwift (3.6.1)
+  - RxViewController (0.2.0):
+    - RxCocoa (>= 3.0.0)
+    - RxSwift (>= 3.0.0)
+  - SectionReactor (0.2.1):
+    - ReactorKit
+    - RxDataSources (>= 2.0.0)
+  - SnapKit (3.2.0)
+  - Stubber (0.5.0)
+  - SwiftyColor (1.0.0)
+  - SwiftyImage (1.2.0)
+  - Then (2.1.1)
+  - TouchAreaInsets (1.0.0)
+  - TTTAttributedLabel (2.0.0)
+  - UICollectionViewFlexLayout (0.3.1)
+  - UITextView+Placeholder (1.2.0)
+  - URLNavigator (1.2.5)
+  - WebLinking (1.1.0)
+
+DEPENDENCIES:
+  - Alamofire
+  - Carte
+  - CGFloatLiteral
+  - Immutable
+  - KeychainAccess
+  - Kingfisher (~> 3.13.0)
+  - ManualLayout
+  - Moya (~> 8.0.0)
+  - Moya/RxSwift
+  - MoyaSugar
+  - MoyaSugar/RxSwift
+  - Nimble
+  - ObjectMapper
+  - Quick
+  - ReactorKit (~> 0.5.3)
+  - ReusableKit
+  - RxCocoa (~> 3.6.0)
+  - RxDataSources
+  - RxGesture
+  - RxKeyboard
+  - RxOptional
+  - RxReusable
+  - RxSwift (~> 3.6.0)
+  - RxViewController
+  - SectionReactor
+  - SnapKit (~> 3.2.0)
+  - Stubber
+  - SwiftyColor
+  - SwiftyImage
+  - Then
+  - TouchAreaInsets
+  - TTTAttributedLabel
+  - UICollectionViewFlexLayout
+  - UITextView+Placeholder
+  - URLNavigator
+  - WebLinking (from `https://github.com/kylef/WebLinking.swift`, commit `fddbacc30deab8afe12ce1d3b78bd27c593a0c29`)
+
+EXTERNAL SOURCES:
+  WebLinking:
+    :commit: fddbacc30deab8afe12ce1d3b78bd27c593a0c29
+    :git: https://github.com/kylef/WebLinking.swift
+
+CHECKOUT OPTIONS:
+  WebLinking:
+    :commit: fddbacc30deab8afe12ce1d3b78bd27c593a0c29
+    :git: https://github.com/kylef/WebLinking.swift
+
+SPEC CHECKSUMS:
+  Alamofire: 2d95912bf4c34f164fdfc335872e8c312acaea4a
+  Carte: 546fb42f805910f271e6e743d4a4eef6b12ae254
+  CGFloatLiteral: faba125ab2bb8fa90142c414f876b83099c26f25
+  Differentiator: caa9b3957981a2ac8e6b2eac8a676af461caa604
+  Immutable: 44f04de4122e89210d8682c2409e566d29f71ef2
+  KeychainAccess: 94c5540b32eabf7bc32bfb976a268e8ea05fd6da
+  Kingfisher: ed9707a409cc47fddafbcd12a43a9757e3600af5
+  ManualLayout: 68ac8cfa6b5f656f7a9fadec3730208b95986880
+  Moya: c37eec09a098ba9991b5a963b291fc5704bdb9ef
+  MoyaSugar: 7cf45602d45d067834bd705001908d6444597b10
+  Nimble: 657d000e11df8aebe27cdaf9d244de7f30ed87f7
+  ObjectMapper: 63cfe41bc6f8e7c8f44344c49901b8ae7de14c52
+  Quick: dafc587e21eed9f4cab3249b9f9015b0b7a7f71d
+  ReactorKit: e6c5091baf9f2eee430b6e672ff1a74da9c83256
+  Result: 128640a6347e8d2ae48b142556739a2d13f90ce6
+  ReusableKit: 4e4f45128985987555bde17abbf261c0a604f9f2
+  RxCocoa: 84a08739ab186248c7f31ce4ee92d6f8a947d690
+  RxDataSources: 7f190474a93a206c082c2d74c4cc9c8f7bea4feb
+  RxGesture: a297957f2940b50f7073d1e7ff0eaa3f87cd27a5
+  RxKeyboard: 09e6bd45070888cd9701e941b2324a49cc974a1b
+  RxOptional: d2d6a68064bc16b4801332c40663967f481b0234
+  RxReusable: c18e8e3b5f12a3292b76cc552dd946500f8d2c32
+  RxSwift: f9de85ea20cd2f7716ee5409fc13523dc638e4e4
+  RxViewController: 67cc7dde0f9e2ed941029eceec750c3ecb6ba74b
+  SectionReactor: 8955b08e60f1b7f717e1884b8cce714468cb89e2
+  SnapKit: 1ca44df72cfa543218d177cb8aab029d10d86ea7
+  Stubber: 7b381ced124760fde48dff1b6589d3c9019208a7
+  SwiftyColor: 7fa09db14051bc5d7f539e1c4576665975225992
+  SwiftyImage: ebaa7c7b6163cd4ad102f3bb05a8fb276d35b4f3
+  Then: 823a7503a851737269ba8d40e688b4db874dbd2d
+  TouchAreaInsets: 01a873de4bac294e502bd07219f82bd18866eeee
+  TTTAttributedLabel: 8cffe8e127e4e82ff3af1e5386d4cd0ad000b656
+  UICollectionViewFlexLayout: 81ebb940737f0689ce35efd8c7cfa7c7f68d2d18
+  UITextView+Placeholder: 77680995fcdd07c3f52ec92fe1150874a2ac89ff
+  URLNavigator: 96151fe611827a2ade6643a536888afe616e6edb
+  WebLinking: 3f71787c14a225148e8be29fe6e7c98597cbc459
+
+PODFILE CHECKSUM: 625d5e66192e014cc246b163c7f5be873cf9c26f
+
+COCOAPODS: 1.3.1

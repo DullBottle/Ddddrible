@@ -1,0 +1,6 @@
+framework module Pods_DdddribleTests {
+  umbrella header "Pods-DdddribleTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

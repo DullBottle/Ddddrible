@@ -1,0 +1,6 @@
+framework module Pods_Ddddrible {
+  umbrella header "Pods-Ddddrible-umbrella.h"
+
+  export *
+  module * { export * }
+}
