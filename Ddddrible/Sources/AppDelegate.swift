@@ -8,9 +8,29 @@
 
 import UIKit
 
+import CGFloatLiteral
+import Immutable
+import Kingfisher
+import ManualLayout
+import SnapKit
+import SwiftyColor
+import SwiftyImage
+import Then
+import TouchAreaInsets
+import URLNavigator
+import WebLinking
+
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
+    // MARK: Properties.
+    
+    class var shared: AppDelegate {
+        return UIApplication.shared.delegate as! AppDelegate
+    }
+    
+    // MARK: UI.
+    
     var window: UIWindow?
 
 

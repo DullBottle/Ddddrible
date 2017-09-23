@@ -14,6 +14,7 @@
 		5A28E6591F76603100E94520 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A28E6451F76603100E94520 /* Assets.xcassets */; };
 		5A28E65C1F76603100E94520 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A28E64C1F76603100E94520 /* AppDelegate.swift */; };
 		5A28E65F1F76606100E94520 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A28E65E1F76606100E94520 /* Launch Screen.storyboard */; };
+		5AC0D3561F76686A00973BAC /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AC0D3551F76686A00973BAC /* main.swift */; };
 		F52B04AF9F76EE4B012A68FF /* Pods_DdddribleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFFE1413AEB9B30C17062F35 /* Pods_DdddribleTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -49,6 +50,7 @@
 		5A28E64C1F76603100E94520 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5A28E6581F76603100E94520 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5A28E65E1F76606100E94520 /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		5AC0D3551F76686A00973BAC /* main.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		65D2DCB7D0A85EFB1FA98079 /* Pods-DdddribleUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DdddribleUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DdddribleUITests/Pods-DdddribleUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		C1E96EA378B294EACA4D441D /* Pods-DdddribleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DdddribleTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DdddribleTests/Pods-DdddribleTests.release.xcconfig"; sourceTree = "<group>"; };
 		CFFE1413AEB9B30C17062F35 /* Pods_DdddribleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DdddribleTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -146,6 +148,7 @@
 		5A28E64A1F76603100E94520 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				5AC0D3551F76686A00973BAC /* main.swift */,
 				5A28E64C1F76603100E94520 /* AppDelegate.swift */,
 				5A28E64F1F76603100E94520 /* Networking */,
 				5A28E64E1F76603100E94520 /* Models */,
@@ -637,6 +640,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5AC0D3561F76686A00973BAC /* main.swift in Sources */,
 				5A28E65C1F76603100E94520 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
