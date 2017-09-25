@@ -14,6 +14,17 @@
 		5A28E6591F76603100E94520 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A28E6451F76603100E94520 /* Assets.xcassets */; };
 		5A28E65C1F76603100E94520 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A28E64C1F76603100E94520 /* AppDelegate.swift */; };
 		5A28E65F1F76606100E94520 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A28E65E1F76606100E94520 /* Launch Screen.storyboard */; };
+		5AA3FF901F78A36B0025598D /* UIColor + Ddddrible.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AA3FF8F1F78A36B0025598D /* UIColor + Ddddrible.swift */; };
+		5AA3FF921F78AEC70025598D /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AA3FF911F78AEC70025598D /* BaseViewController.swift */; };
+		5AA3FF941F78D0D20025598D /* SplashViewReactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AA3FF931F78D0D20025598D /* SplashViewReactor.swift */; };
+		5AA3FF961F78D0F70025598D /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AA3FF951F78D0F70025598D /* SplashViewController.swift */; };
+		5AA3FF981F78D62A0025598D /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AA3FF971F78D62A0025598D /* Logger.swift */; };
+		5AA3FF9A1F78D7730025598D /* Networking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AA3FF991F78D7730025598D /* Networking.swift */; };
+		5AA3FF9C1F78DA570025598D /* DdddribleAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AA3FF9B1F78DA570025598D /* DdddribleAPI.swift */; };
+		5AA3FF9F1F78EC210025598D /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AA3FF9E1F78EC210025598D /* AuthService.swift */; };
+		5AA3FFA11F78EC2D0025598D /* UserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AA3FFA01F78EC2D0025598D /* UserService.swift */; };
+		5AA3FFA31F78ECB60025598D /* AccessToken.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AA3FFA21F78ECB60025598D /* AccessToken.swift */; };
+		5AA3FFA51F78ECFB0025598D /* ModelType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AA3FFA41F78ECFA0025598D /* ModelType.swift */; };
 		5AC0D3561F76686A00973BAC /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AC0D3551F76686A00973BAC /* main.swift */; };
 		F52B04AF9F76EE4B012A68FF /* Pods_DdddribleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFFE1413AEB9B30C17062F35 /* Pods_DdddribleTests.framework */; };
 /* End PBXBuildFile section */
@@ -50,6 +61,17 @@
 		5A28E64C1F76603100E94520 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5A28E6581F76603100E94520 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5A28E65E1F76606100E94520 /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		5AA3FF8F1F78A36B0025598D /* UIColor + Ddddrible.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor + Ddddrible.swift"; sourceTree = "<group>"; };
+		5AA3FF911F78AEC70025598D /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		5AA3FF931F78D0D20025598D /* SplashViewReactor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplashViewReactor.swift; sourceTree = "<group>"; };
+		5AA3FF951F78D0F70025598D /* SplashViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
+		5AA3FF971F78D62A0025598D /* Logger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Logger.swift; sourceTree = "<group>"; };
+		5AA3FF991F78D7730025598D /* Networking.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Networking.swift; sourceTree = "<group>"; };
+		5AA3FF9B1F78DA570025598D /* DdddribleAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DdddribleAPI.swift; sourceTree = "<group>"; };
+		5AA3FF9E1F78EC210025598D /* AuthService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
+		5AA3FFA01F78EC2D0025598D /* UserService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserService.swift; sourceTree = "<group>"; };
+		5AA3FFA21F78ECB60025598D /* AccessToken.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccessToken.swift; sourceTree = "<group>"; };
+		5AA3FFA41F78ECFA0025598D /* ModelType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModelType.swift; sourceTree = "<group>"; };
 		5AC0D3551F76686A00973BAC /* main.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		65D2DCB7D0A85EFB1FA98079 /* Pods-DdddribleUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DdddribleUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DdddribleUITests/Pods-DdddribleUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		C1E96EA378B294EACA4D441D /* Pods-DdddribleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DdddribleTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DdddribleTests/Pods-DdddribleTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -182,6 +204,8 @@
 		5A28E64E1F76603100E94520 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				5AA3FFA41F78ECFA0025598D /* ModelType.swift */,
+				5AA3FFA21F78ECB60025598D /* AccessToken.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -189,6 +213,9 @@
 		5A28E64F1F76603100E94520 /* Networking */ = {
 			isa = PBXGroup;
 			children = (
+				5AA3FF991F78D7730025598D /* Networking.swift */,
+				5AA3FF9B1F78DA570025598D /* DdddribleAPI.swift */,
+				5AA3FF9D1F78E0EE0025598D /* Plugins */,
 			);
 			path = Networking;
 			sourceTree = "<group>";
@@ -210,6 +237,8 @@
 		5A28E6521F76603100E94520 /* Services */ = {
 			isa = PBXGroup;
 			children = (
+				5AA3FF9E1F78EC210025598D /* AuthService.swift */,
+				5AA3FFA01F78EC2D0025598D /* UserService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -224,6 +253,8 @@
 		5A28E6541F76603100E94520 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				5AA3FF971F78D62A0025598D /* Logger.swift */,
+				5AA3FF8F1F78A36B0025598D /* UIColor + Ddddrible.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -231,6 +262,9 @@
 		5A28E6551F76603100E94520 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				5AA3FF911F78AEC70025598D /* BaseViewController.swift */,
+				5AA3FF931F78D0D20025598D /* SplashViewReactor.swift */,
+				5AA3FF951F78D0F70025598D /* SplashViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -249,6 +283,13 @@
 				5A28E6581F76603100E94520 /* Info.plist */,
 			);
 			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5AA3FF9D1F78E0EE0025598D /* Plugins */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Plugins;
 			sourceTree = "<group>";
 		};
 		6A5151AB4B1A0E5F754BF9B7 /* Frameworks */ = {
@@ -640,8 +681,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5AA3FF901F78A36B0025598D /* UIColor + Ddddrible.swift in Sources */,
+				5AA3FF9C1F78DA570025598D /* DdddribleAPI.swift in Sources */,
+				5AA3FF921F78AEC70025598D /* BaseViewController.swift in Sources */,
+				5AA3FF941F78D0D20025598D /* SplashViewReactor.swift in Sources */,
+				5AA3FF9A1F78D7730025598D /* Networking.swift in Sources */,
+				5AA3FF961F78D0F70025598D /* SplashViewController.swift in Sources */,
+				5AA3FFA11F78EC2D0025598D /* UserService.swift in Sources */,
+				5AA3FF981F78D62A0025598D /* Logger.swift in Sources */,
+				5AA3FF9F1F78EC210025598D /* AuthService.swift in Sources */,
 				5AC0D3561F76686A00973BAC /* main.swift in Sources */,
 				5A28E65C1F76603100E94520 /* AppDelegate.swift in Sources */,
+				5AA3FFA51F78ECFB0025598D /* ModelType.swift in Sources */,
+				5AA3FFA31F78ECB60025598D /* AccessToken.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

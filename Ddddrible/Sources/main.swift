@@ -11,8 +11,11 @@ import UIKit
 private func appDelegateClassName() -> String {
     let isTesting = NSClassFromString("XCTestCase") != nil
     Bundle.main.object(forInfoDictionaryKey: "")
-    return isTesting ? "DrrribleTests.StubAppDelegate" : NSStringFromClass(AppDelegate.self)
+    return isTesting ? "DdddribleTests.StubAppDelegate" : NSStringFromClass(AppDelegate.self)
 }
 
-UIApplicationMain(CommandLine.argc, UnsafeMutableRawPointer(CommandLine.unsafeArgv).bindMemory(to: UnsafeMutablePointer<Int8>.self, capacity: Int(CommandLine.argc)), NSStringFromClass(AppDelegate.self), appDelegateClassName())
+UIApplicationMain(CommandLine.argc,
+                  UnsafeMutableRawPointer(CommandLine.unsafeArgv).bindMemory(to: UnsafeMutablePointer<Int8>.self, capacity: Int(CommandLine.argc)),
+                  NSStringFromClass(AppDelegate.self),
+                  appDelegateClassName())
 
