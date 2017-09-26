@@ -64,17 +64,21 @@ final class SplashViewController: BaseViewController, View {
         //
         // Output.
         //
+        reactor.state
+            .map { $0.isAuthenticated }
+            .filterNil()
+            .distinctUntilChanged()
+            .subscribe(onNext: { [weak self] isAuthenticated in
+            
+                if isAuthenticated {
+                    self?.presentMainScreen()
+                } else {
+                    self?.presentLoginScreen()
+                }
+            
+            }).disposed(by: self.disposeBag)
     }
 }
-
-
-
-
-
-
-
-
-
 
 
 
