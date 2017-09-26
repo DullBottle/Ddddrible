@@ -19,6 +19,7 @@ import Then
 import TouchAreaInsets
 import URLNavigator
 import WebLinking
+import RxViewController
 
 final class AppDelegate: UIResponder, UIApplicationDelegate {
 

@@ -26,12 +26,36 @@ final class SplashViewReactor: Reactor {
     
     let initialState = State()
     
-    init() {
-        
+    fileprivate let userService: UserServiceType
+    
+    init(userService: UserServiceType) {
+        self.userService = userService
     }
     
+    func mutate(action: Action) -> Observable<Mutation> {
+        switch action {
+        case .checkIfAuthenticated:
+            return self.userService.fetchMe()
+                .asObservable()
+                .map { true }
+                .catchErrorJustReturn(false)
+                .map(Mutation.setAuthenticated)
+        }
+    }
     
+    func reduce(state: State, mutation: Mutation) -> State {
+        var state = state
+        switch mutation {
+        case .setAuthenticated(let isAuthenticated):
+            state.isAuthenticated = isAuthenticated
+            return state
+        }
+    }
     
 }
+
+
+
+
 
 
