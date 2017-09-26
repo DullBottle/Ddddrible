@@ -15,8 +15,8 @@ final class SplashViewController: BaseViewController, View {
     
     // MARK: Properties.
     
-    private let presentLoginScreen: () -> Void
-    private let presentMainScreen: () -> Void
+    private let presentLoginScreen: VoidClosure
+    private let presentMainScreen: VoidClosure
     
     // MARK: UI.
     
@@ -24,7 +24,7 @@ final class SplashViewController: BaseViewController, View {
     
     // MARK: Initializing.
     
-    init(reactor: Reactor, presentLoginScreen: @escaping () -> Void, presentMainScreen: @escaping () -> Void) {
+    init(reactor: Reactor, presentLoginScreen: @escaping VoidClosure, presentMainScreen: @escaping VoidClosure) {
         defer { self.reactor = reactor }
         self.presentLoginScreen = presentLoginScreen
         self.presentMainScreen = presentMainScreen
@@ -79,13 +79,6 @@ final class SplashViewController: BaseViewController, View {
             }).disposed(by: self.disposeBag)
     }
 }
-
-
-
-
-
-
-
 
 
 
